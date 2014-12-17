@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <Button
+        android:id="@+id/btnp1_599"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnsh_599"
+        android:layout_marginTop="32dp"
+        android:text="Player 1" />
+
+    <Button
+        android:id="@+id/btnp2_599"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnsh_599"
+        android:layout_below="@+id/btnp1_599"
+        android:text="Player 2" />
+
+    <Button
+        android:id="@+id/btnp3_599"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnsh_599"
+        android:layout_below="@+id/btnp2_599"
+        android:text="Player 3" />
+
+    <Button
+        android:id="@+id/btnsh_599"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="Show" />
+
+    <Button
+        android:id="@+id/btnc"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:text="Close" />
+
+</RelativeLayout>
